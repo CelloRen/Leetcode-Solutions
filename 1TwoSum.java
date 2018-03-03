@@ -21,3 +21,6 @@ class Solution {
 		return null;
     }
 }
+
+//The worst case: we need to scan two times,first scan we need to put all to map,second scan we look for the two indices
+//So the time complexity is O(n), space complexity is O(n). n is the length of array nums
