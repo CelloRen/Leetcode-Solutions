@@ -34,3 +34,6 @@ class Solution {
         return dummy.next;
     }
 }
+
+//Time complexity is O(n). n is the max len of l1 and l2.
+//Space complexity is O(n+m). n and m are the length of l1 and l2.
